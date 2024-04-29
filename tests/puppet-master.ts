@@ -10,7 +10,7 @@ describe("puppet-master", () => {
 
   it("Is initialized!", async () => {
     // Add your test here.
-    const tx = await program.methods.initialize().rpc();
-    console.log("Your transaction signature", tx);
+    const tx = await program.methods.pullStrinng().rpc();
+    console.log("Your pullString transaction signature", tx);
   });
 });
